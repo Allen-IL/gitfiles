@@ -1,0 +1,7 @@
+(base) allen@allen-ThinkPad-X13-Gen-2i:~$ sudo strings /sys/firmware/acpi/tables/MSDM
+[sudo] password for allen:               
+MSDMU
+LENOVOTP-N35  
+PTEC
+7P76N-HMX3D-8GCJP-Q6TPX-DYH8X
+
