@@ -1,0 +1,91 @@
+PoliFormer – Fifteen 数据集目标类别（15类）：
+Apple
+Bottle
+Bowl
+Chair
+CreditCard
+Cup
+Laptop
+Mug
+Pillow
+Plate
+RemoteControl
+Sink
+SoapBottle
+Television
+ToiletPaper
+
+这些 15 个类别是：在 THOR 内分布常见、可见性高、导航可行、有明确语义
+相比标准 ObjectNav 的 21 类，fifteen 删改了部分类别，但保留了多样性。
+
+
+除了“目标类别”，环境本身还能识别 其他对象，但不会作为导航任务目标。例如：
+Bed
+Sofa
+Cabinet
+Pan
+Egg
+Lettuce
+Picture
+Towel
+Vase
+灯、抽屉、桌子等…
+它们虽然具有语义标签，但不在 evaluation target set 内。
+
+
+标准 ObjectNav 的 21 类：
+分类归组（方便记忆）
+日常容器类（7）：
+Bowl
+Cup
+Mug
+Plate
+Sink
+SoapBottle
+Vase
+家居类（4）：
+（×）Bed
+Chair
+（×）Pillow
+（×）Television
+小物件电子类（3）：
+（×）AlarmClock
+Laptop
+RemoteControl
+卫生间类（2）：
+（×）Toilet
+ToiletPaper
+常见小件（1）：
+CreditCard
+食物类（1）：
+Apple
+球类运动（3）：
+（×）BasketBall
+（×）BaseballBat
+（×）BaseballGlove
+
+
+| 英文                     | 中文                   |
+| ----------------- | ---------------- |
+| AlarmClock        | 闹钟                    |
+| Apple                  | 苹果                    |
+| BaseballBat         | 棒球棒                |
+| BaseballGlove    | 棒球手套             |
+| BasketBall           | 篮球                    |
+| Bed                      | 床                        |
+| Bowl                    | 碗                        |
+| Chair                   | 椅子                     |
+| CreditCard         | 信用卡                  |
+| Cup                     | 杯子                     |
+| Laptop               | 笔记本电脑           |
+| Mug                    | 马克杯                  |
+| Pillow                 | 枕头                      |
+| Plate                   | 盘子                      |
+| RemoteControl | 遥控器                  |
+| Sink                    | 水槽                      |
+| SoapBottle        | 洗手液瓶 / 肥皂瓶 |
+| Television          | 电视机                   |
+| Toilet                  | 马桶                      |
+| ToiletPaper        | 卫生纸                  |
+| Vase                   | 花瓶                      |
+
